@@ -1,0 +1,7 @@
+{
+	"fileVersion": 1,
+	"versions": {
+		"ctfe-data": {"path":".."},
+		"elf-d": "0.2.5"
+	}
+}

@@ -1,0 +1,19 @@
+name "example"
+targetType "none"
+toolchainRequirements dmd="no" gdc="no"
+
+configuration "application" {
+	targetName "app1"
+	targetType "executable"
+	mainSourceFile "app1.d"
+	sourceFiles "app1.d" "app_other.d" "common.d"
+	dependency "ctfe-data:inject" path=".."
+}
+
+configuration "reader" {
+	targetName "reader"
+	targetType "executable"
+	mainSourceFile "reader.d"
+	sourceFiles "reader.d" "common.d"
+	dependency "ctfe-data:extract" path=".."
+}

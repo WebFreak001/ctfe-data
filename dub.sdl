@@ -1,0 +1,9 @@
+name "ctfe-data"
+targetType "none"
+authors "WebFreak"
+license "public domain"
+
+subPackage "inject"
+subPackage "extract"
+
+toolchainRequirements dmd="no" gdc="no"

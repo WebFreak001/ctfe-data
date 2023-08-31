@@ -1,0 +1,3 @@
+name "extract"
+dependency "elf-d" version="~>0.2.5"
+description "Counter-part to injector, which can read the compile-time data embedded into the executable at runtime"

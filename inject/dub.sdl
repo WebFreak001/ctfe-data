@@ -1,0 +1,2 @@
+name "inject"
+description "Inject compile time data into executables to read out without executing it"
