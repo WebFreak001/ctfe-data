@@ -1,6 +1,5 @@
 name "example"
 targetType "none"
-toolchainRequirements dmd="no" gdc="no"
 
 configuration "application" {
 	targetName "app1"
