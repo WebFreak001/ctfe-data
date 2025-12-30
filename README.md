@@ -3,7 +3,7 @@
 Allows you to put arbitrary data into the executable at CTFE, for later retrieval
 using a runtime process, e.g. saving meta-data and retreiving it later.
 
-Limitations: currently only supported on LDC on linux. GDC on linux needs `align(16)` on the passed in data.
+Limitations: currently only supported on LDC and GDC on linux. GDC on linux further needs `align(16)` on the passed in data.
 
 ## Example
 
