@@ -1,4 +1,5 @@
 name "ctfe-data"
+description "Library to embed data objects into executables, which can be read out without execution"
 targetType "none"
 authors "WebFreak"
 license "public domain"
